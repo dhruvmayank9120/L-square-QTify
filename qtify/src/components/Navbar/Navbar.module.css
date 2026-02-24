@@ -1,38 +1,41 @@
 .navbar {
   background-color: #34C94B;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px;
+  padding: 0 40px;
 }
 
 /* Logo */
 .logo img {
-  height: 40px;
+  height: 36px;
 }
 
 /* Search Bar */
 .searchWrapper {
   display: flex;
   align-items: center;
-  background: white;
+  width: 450px;          /* exact width like screenshot */
+  background: #E5E5E5;
   border-radius: 8px;
   overflow: hidden;
-  width: 400px;
 }
 
 .searchInput {
+  flex: 1;
   border: none;
   outline: none;
-  padding: 10px 12px;
-  flex: 1;
+  padding: 12px 16px;
+  background: transparent;
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
 
 .searchButton {
+  width: 50px;
   border: none;
-  background: #e5e5e5;
-  padding: 10px 14px;
+  background: #DADADA;
   cursor: pointer;
 }
 
@@ -42,7 +45,8 @@
   color: #34C94B;
   border: none;
   border-radius: 8px;
-  padding: 10px 18px;
+  padding: 10px 20px;
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   cursor: pointer;
 }
